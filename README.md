@@ -112,27 +112,31 @@ flowchart TD
 
 Write the algorithm and flowchart to input a number and display whether
 it is positive, negative, or zero.
+
 ```text
 START
     INPUT number
-    if number > 0 
+    if number > 0 THEN
     Display "positive"
-    Else if number < 0
+    Else if number < 0 THEN
     Display "Negative"
     Else
-    Display "number is Zero"  
+    Display "Number is Zero"
+    ENDIF
 END
 ```
 ```mermaid
 flowchart TD
     A([Start]) --> B[Input number]
-    B --> C{Is number > 0}
-    C --> D[Display: "Positive"]
-    D --> E{Is number < 0}
-    E --> F[Display: "Negative"]
+    B --> C{Is number > 0 ?}
+    C --YES--> D[Display: "Positive"] 
+    D --NO--> E{Is number < 0 ?}
+    E --YES--> F[Display: "Negative"]
     F --> G[Else]
     G --> H[Display: "positive"]
-    H --> I([End])
+    D --> H1([End])
+    F --> H2([End])
+    G --> H3([End])
 ```
 ---
 
