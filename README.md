@@ -102,7 +102,6 @@ flowchart TD
     D -- Yes --> E[product = number * i]
     E --> F[Display number * i = product]
     F --> G[i = i + 1]
-    G --> C
     D -- No --> H([End])
 
 ```
