@@ -127,7 +127,7 @@ END
 ---
 
 ```mermaid
-lowchart TD
+flowchart TD
     A([Start]) --> B[Input number]
     B --> C{Is number > 0?}
     C -- Yes --> D[Display "Positive"]
