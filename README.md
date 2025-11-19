@@ -185,6 +185,7 @@ flowchart TD
 Write the algorithm and draw the flowchart for a program that takes the
 temperature of 7 days, finds the average temperature, and displays it.
 
+### ✔ Pseudo
 ```text
 START
     INPUT  total temperature 
@@ -221,6 +222,8 @@ the area (**Area = Length × Width**), and display the result.
 END
 ```
 
+
+### ✔ Flowchart
 ```mermaid
 flowchart TD
     A([Start]) --> B[INPUT length]
@@ -239,6 +242,28 @@ otherwise **"Fail"**.
 
 ### ✔ Pseudocode
 
+```text
+START
+    INPUT average marks 
+    if average marks >= 50 THEN
+        Display "Pass"
+    Else
+        Display "Fail" 
+    ENDIF
+END
+```
+
+### ✔ Flowchart
+
+```mermaid
+flowchart TD
+    A([Start]) --> B[Input average_marks]
+    B --> C{Is average_marks >= 50?}
+    C -- Yes --> D[Display Pass]
+    C -- No --> E[Display Fail]
+    D --> F([End])
+    E --> F
+```
 ---
 
 ## 9. Calculate Factorial of a Number
