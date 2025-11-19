@@ -144,29 +144,31 @@ flowchart TD
 
 Create an algorithm and flowchart for a program that calculates simple
 interest using the formula:
-
-```text
-START
-    INPUT principle
-    INPUT rate
-    Input time
-
-    IF number > 0 THEN
-        DISPLAY "Positive"
-    ELSE IF number < 0 THEN
-        DISPLAY "Negative"
-    ELSE
-        DISPLAY "Number is Zero"
-    ENDIF
-
-END
-```
 **SI = (P × R × T) / 100**
 
 - **P = Principal** → original amount of money
 - **R = Rate of Interest** → percentage per year
 - **T = Time** → number of years
 
+```text
+START
+    INPUT principle
+    INPUT rate
+    Input time
+    SI = (P × R × T) / 100
+    Display "Simple Interet: " SI
+END
+````
+
+```mermaid
+flowchart TD
+    A([Start]) --> B[Input principle]
+    B --> C[Input rate]
+    C --> D [Input time]
+    D --> E{SI = (P × R × T) / 100}
+    E --> F[Display SI]
+    F --> G([End]) 
+```
 ---
 
 ## 6. Average Temperature Calculation
