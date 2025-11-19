@@ -135,8 +135,8 @@ flowchart TD
     E -- Yes --> F[Display "Negative"]
     E -- No --> G[Display "Number is Zero"]
     D --> H([End])
-    F --> H
-    G --> H
+    F --> E
+    G --> E
 ```
 ---
 
