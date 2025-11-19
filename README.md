@@ -86,28 +86,25 @@ multiplication table from 1 to 10 using a loop.
 
 ```text
 START
-    SET INPUT number
-    SET INPUT i
-    PROMPT "Enter a number:"; READ NUMBER
+    INPUT number
     SET i = 1
-    while i <= 10
-    COMPUTE PRODUCT <- N *1
-    Display "number * 1 = product"
-    INCREAMENT i <- 1 + 1
+    WHILE i <= 10
+    DISPLAY number, "*", i, "=", product
+    i = i + 1
+    ENDWHILE
 END
 ```
 ```mermaid
 flowchart TD
     A([Start]) --> B[Input number]
     B --> C[Input i]
-    C --> D["Enter a number:"; READ NUMBER]
-    D --> E[SET i = 1]
-    E --> F[while i <= 10]
-    G --> H [COMPUTE PRODUCT <- N *1]
-    I --> J [Display "number * 1 = product"]
-    J --> K [INCREAMENT i <- 1 + 1 ]
-    L --> M ([End])
+    C --> D[while i <= 10]
+    D --> E[DISPLAY number, "*", i, "=", product]
+    E --> F[i = i + 1]
+    G --> H [ ENDWHILE]
+    I --> J ([End])
 ```
+
 ---
 
 ## 4. Positive, Negative, or Zero Check
