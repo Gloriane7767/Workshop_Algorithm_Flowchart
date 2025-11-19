@@ -271,6 +271,32 @@ flowchart TD
 Write the algorithm and draw the flowchart that input a number and
 calculate its factorial using a loop.
 
+### ✔ Pseudocode
+```text
+START
+    INPUT number
+    SET i = 1
+    SET fact = 1
+    WHILE i <= number
+        fact = fact * i
+        i = i + 1
+    ENDWHILE
+    DISPLAY "Factorial = ", fact
+END
+```
+
+```mermaid
+flowchart TD
+    A([Start]) --> B[Input number]
+    B --> C[Set i = 1]
+    C --> D[Set fact = 1]
+    D --> E{Is i <= number?}
+    E -- Yes --> F[Compute fact = fact * i]
+    F --> G[Increment i = i + 1]
+    G --> E
+    E -- No --> H[Display factorial]
+    H --> I([End])
+```
 ---
 
 ## 10. Calculate Discount on Purchase
