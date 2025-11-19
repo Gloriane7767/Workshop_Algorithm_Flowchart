@@ -128,12 +128,11 @@ END
 ```mermaid
 flowchart TD
     A([Start]) --> B[Input number]
-    B --> C{Is number > 0 ?}
-    C --YES--> D[Display: "Positive"] 
-    D --NO--> E{Is number < 0 ?}
-    E --YES--> F[Display: "Negative"]
-    F --> G[Else]
-    G --> H[Display: "positive"]
+    B --> C{Is number > 0?}
+    C -- Yes --> D[Display "Positive"]
+    C -- No --> E{Is number < 0?}
+    E -- Yes --> F[Display "Negative"]
+    E -- No --> G[Display "Number is Zero"]
     D --> H1([End])
     F --> H2([End])
     G --> H3([End])
