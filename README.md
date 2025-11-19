@@ -56,6 +56,7 @@ flowchart TD
 Write the algorithm and draw the flowchart for a program that inputs
 marks for 3 subjects, calculates the total and average, and displays
 both.
+
 ```text
 START
     INPUT mark1
@@ -63,6 +64,8 @@ START
     INPUT mark3
     total = mark1 + mark2 + mark3
     average = total / 3
+    DISPLAY "Total:", total
+    DISPLAY "Average:", average
 END
 ```
 
@@ -70,10 +73,9 @@ END
 flowchart TD
     A([Start]) --> B[Input mark1, mark2, mark3]
     B --> C[total = mark1 + mark2 + mark3]
-    C --> D[average = total / 3]
-    D --> E[DISPLAY "Total:", total]
-    E --> F[DISPLAY "Average:", average]
-    F --> G([End])
+    C --> D[average = total/3]
+    D --> E[DISPLAY "Total" and "Average"]
+    E --> F([End])
 ```
 ---
 
