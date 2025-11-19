@@ -97,12 +97,14 @@ END
 ```mermaid
 flowchart TD
     A([Start]) --> B[Input number]
-    B --> C[Input i]
-    C --> D[while i <= 10]
-    D --> E[DISPLAY number, "*", i, "=", product]
-    E --> F[i = i + 1]
-    G --> H [ ENDWHILE]
-    I --> J ([End])
+    B --> C[SET i = 1]
+    C --> D{Is i ≤ 10?}
+    D -- Yes --> E[product = number * i]
+    E --> F[Display number * i = product]
+    F --> G[i = i + 1]
+    G --> C
+    D -- No --> H([End])
+
 ```
 
 ---
