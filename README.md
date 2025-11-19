@@ -36,7 +36,7 @@ START
     ENDIF
 END
 ```
-
+---
 ### ✔ Flowchart
 
 ```mermaid
