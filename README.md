@@ -104,17 +104,36 @@ flowchart TD
     F --> G[i = i + 1]
     G --> D
     D -- No --> H([End])
-  
 
 ```
-
 ---
 
 ## 4. Positive, Negative, or Zero Check
 
 Write the algorithm and flowchart to input a number and display whether
 it is positive, negative, or zero.
-
+```text
+START
+    INPUT number
+    if number > 0 
+    Display "positive"
+    Else if number < 0
+    Display "Negative"
+    Else
+    Display "number is Zero"  
+END
+```
+```mermaid
+flowchart TD
+    A([Start]) --> B[Input number]
+    B --> C{Is number > 0}
+    C --> D[Display: "Positive"]
+    D --> E{Is number < 0}
+    E --> F[Display: "Negative"]
+    F --> G[Else]
+    G --> H[Display: "positive"]
+    H --> I([End])
+```
 ---
 
 ## 5. Simple Interest Calculator
