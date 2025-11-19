@@ -284,7 +284,7 @@ START
     DISPLAY "Factorial = ", fact
 END
 ```
-
+### ✔ Flowchart
 ```mermaid
 flowchart TD
     A([Start]) --> B[Input number]
@@ -305,4 +305,34 @@ Write the algorithm and draw the flowchart for a program that inputs the
 purchase amount and gives a **10% discount** if the amount is greater
 than 1000.
 
+### ✔ Pseudocode
+
+```text
+START
+    INPUT amount
+    IF amount > 1000 THEN
+        discount ← amount * 0.10
+        final_amount ← amount - discount
+    ELSE
+        discount ← 0
+        final_amount ← amount
+    ENDIF
+    DISPLAY discount, final_amount
+END
+
+```
+
+### ✔ Flowchart
+```mermaid
+flowchart TD
+    A([Start]) --> B[Input amount]
+    B --> C{Is amount > 1000?}
+    C -- Yes --> D[discount = amount * 0.10]
+    D --> E[final_amount = amount - discount]
+    C -- No --> F[discount = 0]
+    F --> G[final_amount = amount]
+    E --> H[Display discount and final_amount]
+    G --> H
+    H --> I([End])
+```
 ---
