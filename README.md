@@ -165,7 +165,7 @@ flowchart TD
     A([Start]) --> B[Input principal]
     B --> C[Input rate]
     C --> D[Input time]
-    D --> E[Compute SI = (principal * rate * time) / 100]
+    D --> E[Compute SI = principal * rate * time / 100]
     E --> F[Display Simple Interest]
     F --> G([End])
 ---
