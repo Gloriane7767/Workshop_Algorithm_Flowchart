@@ -84,6 +84,19 @@ flowchart TD
 Create an algorithm and flowchart that input a number and display its
 multiplication table from 1 to 10 using a loop.
 
+```text
+START
+    SET INPUT number
+    SET INPUT i
+    PROMPT "Enter a number:"; READ NUMBER
+    SET i = 1
+    while i <= 10
+    COMPUTE PRODUCT <- N *1
+    Display "number * 1 = product"
+    INCREAMENT i <- 1 + 1
+END
+```
+
 ---
 
 ## 4. Positive, Negative, or Zero Check
