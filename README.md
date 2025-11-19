@@ -115,6 +115,7 @@ it is positive, negative, or zero.
 ```text
 START
     INPUT number
+
     IF number > 0 THEN
         DISPLAY "Positive"
     ELSE IF number < 0 THEN
@@ -122,13 +123,14 @@ START
     ELSE
         DISPLAY "Number is Zero"
     ENDIF
+
 END
 
 ```
 ---
 
 ```mermaid
-flowchart TD
+lowchart TD
     A([Start]) --> B[Input number]
     B --> C{Is number > 0?}
     C -- Yes --> D[Display "Positive"]
@@ -138,7 +140,6 @@ flowchart TD
     D --> H1([End])
     F --> H2([End])
     G --> H3([End])
-
 ```
 ---
 
