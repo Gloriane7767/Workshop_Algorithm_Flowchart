@@ -64,7 +64,7 @@ START
     total = mark1 + mark2 + mark3
     average = total / 3
 END
-````
+```
 
 ```mermaid
 flowchart TD
