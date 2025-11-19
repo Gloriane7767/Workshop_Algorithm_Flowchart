@@ -130,13 +130,13 @@ END
 flowchart TD
     A([Start]) --> B[Input number]
     B --> C{Is number > 0?}
-    C -- Yes --> D[Display "Positive"]
+    C -- Yes --> D[Display Positive]
     C -- No --> E{Is number < 0?}
-    E -- Yes --> F[Display "Negative"]
-    E -- No --> G[Display "Number is Zero"]
+    E -- Yes --> F[Display Negative]
+    E -- No --> G[Display Number is Zero]
     D --> H([End])
-    F --> E
-    G --> E
+    F --> H
+    G --> H
 ```
 ---
 
