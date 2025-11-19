@@ -71,8 +71,8 @@ flowchart TD
     A([Start]) --> B[Input mark1, mark2, mark3]
     B --> C[total = mark1 + mark2 + mark3]
     C --> D[average = total / 3]
-    D -- > E[DISPLAY "Total:", total]
-    E -- > F[DISPLAY "Average:", average]
+    D --> E[DISPLAY "Total:", total]
+    E --> F[DISPLAY "Average:", average]
     F --> G([End])
 ```
 ---
