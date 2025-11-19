@@ -166,7 +166,7 @@ flowchart TD
     B --> C[Input rate]
     C --> D [Input time]
     D --> E{SI = (P × R × T) / 100}
-    E --> F[Display SI]
+    E --> F[Display Simple Interest]
     F --> G([End]) 
 ```
 ---
