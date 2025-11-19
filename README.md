@@ -190,7 +190,7 @@ START
     INPUT  total temperature 
     INPUT number of days 
     Average Temperatures = total temperature / number of days
-    Display "Average Temperature: ", average temperature
+    Display "Average Temperature: "; average temperature
 END
 
 ```
@@ -211,6 +211,24 @@ flowchart TD
 Create an algorithm and flowchart to input length and width, calculate
 the area (**Area = Length × Width**), and display the result.
 
+### ✔ Pseudocode
+```test
+    START
+    INPUT length
+    INPUT width
+    Area = length × width
+    Display "Area:, " area
+END
+```
+
+```mermaid
+flowchart TD
+    A([Start]) --> B[INPUT length]
+    B --> C[INPUT width]
+    C --> D[compute area = length * width]
+    D --> E[Display Area]
+    E --> F([END])
+```
 ---
 
 ## 8. Determine Pass or Fail
