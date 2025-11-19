@@ -57,6 +57,7 @@ Write the algorithm and draw the flowchart for a program that inputs
 marks for 3 subjects, calculates the total and average, and displays
 both.
 
+### ✔ Pseudocode
 ```text
 START
     INPUT mark1
@@ -69,6 +70,7 @@ START
 END
 ```
 
+### ✔ Flowchart
 ```mermaid
 flowchart TD
     A([Start]) --> B[Input mark1, mark2, mark3]
@@ -84,6 +86,7 @@ flowchart TD
 Create an algorithm and flowchart that input a number and display its
 multiplication table from 1 to 10 using a loop.
 
+### ✔ Pseudocode
 ```text
 START
     INPUT number
@@ -94,6 +97,8 @@ START
     ENDWHILE
 END
 ```
+
+### ✔ Flowchart
 ```mermaid
 flowchart TD
     A([Start]) --> B[Input number]
@@ -112,6 +117,7 @@ flowchart TD
 Write the algorithm and flowchart to input a number and display whether
 it is positive, negative, or zero.
 
+### ✔ Pseudocode
 ```text
 START
     INPUT number
@@ -126,6 +132,7 @@ END
 ```
 ---
 
+### ✔ Flowchart
 ```mermaid
 flowchart TD
     A([Start]) --> B[Input number]
@@ -148,8 +155,9 @@ interest using the formula:
 
 - **P = Principal** → original amount of money
 - **R = Rate of Interest** → percentage per year
-- **T = Time** → number of years
+- **T = Time** → number of year
 
+### ✔ Pseudocode
 ```text
 START
     INPUT principal
@@ -160,6 +168,7 @@ START
 END
 ```
 
+### ✔ Flowchart
 ```mermaid
 flowchart TD
     A([Start]) --> B[Input principal]
