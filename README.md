@@ -128,7 +128,8 @@ END
 ---
 
 ```mermaid
- A([Start]) --> B[Input number]
+flowchart TD
+    A([Start]) --> B[Input number]
     B --> C{Is number > 0?}
     C -- Yes --> D[Display "Positive"]
     C -- No --> E{Is number < 0?}
@@ -137,6 +138,7 @@ END
     D --> H1([End])
     F --> H2([End])
     G --> H3([End])
+
 ```
 ---
 
