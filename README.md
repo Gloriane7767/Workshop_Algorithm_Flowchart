@@ -187,20 +187,21 @@ temperature of 7 days, finds the average temperature, and displays it.
 
 ```text
 START
-    INPUT temperature = 0
-    INPUT number of days = 7
-    Average Temperatures = temperature % number of days
-    Display "average temperature"
+    INPUT  total temperature 
+    INPUT number of days 
+    Average Temperatures = total temperature / number of days
+    Display "Average Temperature: ", average temperature
 END
+
 ```
 ### ✔ Flowchart
 
 ```mermaid
 flowchart TD
-    A([Start]) --> B[Input temperature = 0]
-    B --> C[number of days = 7]
-    C --> D{Average Temperatures = temperature % number of days}
-    D --> E[Display "average temperature"]
+    A([Start]) --> B[Input  total temperature]
+    B --> C[number of days]
+    C --> D{Average Temperatures = total temperature/number of days}
+    D --> E[Display Average Temperature]
     E --> F([End])
 ```
 ---
