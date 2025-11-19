@@ -116,14 +116,16 @@ it is positive, negative, or zero.
 ```text
 START
     INPUT number
-    if number > 0 THEN
-    Display "positive"
-    Else if number < 0 THEN
-    Display "Negative"
-    Else
-    Display "Number is Zero"
+
+    IF number > 0 THEN
+        DISPLAY "Positive"
+    ELSE IF number < 0 THEN
+        DISPLAY "Negative"
+    ELSE
+        DISPLAY "Number is Zero"
     ENDIF
 END
+
 ```
 ```mermaid
 flowchart TD
