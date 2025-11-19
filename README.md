@@ -104,7 +104,6 @@ flowchart TD
     F --> G[i = i + 1]
     G --> D
     D -- No --> H([End])
-
 ```
 ---
 
@@ -129,8 +128,7 @@ END
 ---
 
 ```mermaid
-flowchart TD
-    A([Start]) --> B[Input number]
+ A([Start]) --> B[Input number]
     B --> C{Is number > 0?}
     C -- Yes --> D[Display "Positive"]
     C -- No --> E{Is number < 0?}
