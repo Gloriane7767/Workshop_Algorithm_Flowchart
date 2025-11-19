@@ -152,23 +152,22 @@ interest using the formula:
 
 ```text
 START
-    INPUT principle
+    INPUT principal
     INPUT rate
-    Input time
-    SI = (P × R × T) / 100
-    Display "Simple Interet: " SI
+    INPUT time
+    SI = (principal * rate * time) / 100
+    DISPLAY "Simple Interest: ", SI
 END
 ````
 
 ```mermaid
 flowchart TD
-    A([Start]) --> B[Input principle]
+    A([Start]) --> B[Input principal]
     B --> C[Input rate]
-    C --> D [Input time]
-    D --> E{SI = (P × R × T) / 100}
+    C --> D[Input time]
+    D --> E[Compute SI = (principal * rate * time) / 100]
     E --> F[Display Simple Interest]
-    F --> G([End]) 
-```
+    F --> G([End])
 ---
 
 ## 6. Average Temperature Calculation
