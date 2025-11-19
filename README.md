@@ -116,7 +116,6 @@ it is positive, negative, or zero.
 ```text
 START
     INPUT number
-
     IF number > 0 THEN
         DISPLAY "Positive"
     ELSE IF number < 0 THEN
@@ -127,6 +126,8 @@ START
 END
 
 ```
+---
+
 ```mermaid
 flowchart TD
     A([Start]) --> B[Input number]
