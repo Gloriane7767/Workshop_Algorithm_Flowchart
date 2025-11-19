@@ -158,7 +158,7 @@ START
     SI = (principal * rate * time) / 100
     DISPLAY "Simple Interest: ", SI
 END
-````
+```
 
 ```mermaid
 flowchart TD
@@ -168,6 +168,7 @@ flowchart TD
     D --> E[Compute SI = principal * rate * time / 100]
     E --> F[Display Simple Interest]
     F --> G([End])
+```
 ---
 
 ## 6. Average Temperature Calculation
