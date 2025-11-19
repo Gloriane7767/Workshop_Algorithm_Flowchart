@@ -185,6 +185,24 @@ flowchart TD
 Write the algorithm and draw the flowchart for a program that takes the
 temperature of 7 days, finds the average temperature, and displays it.
 
+```text
+START
+    INPUT temperature = 0
+    INPUT number of days = 7
+    Average Temperatures = temperature % number of days
+    Display "average temperature"
+END
+```
+### ✔ Flowchart
+
+```mermaid
+flowchart TD
+    A([Start]) --> B[Input temperature = 0]
+    B --> C[number of days = 7]
+    C --> D{Average Temperatures = temperature % number of days}
+    D --> E[Display "average temperature"]
+    E --> F([End])
+```
 ---
 
 ## 7. Calculate Area of a Rectangle
@@ -199,6 +217,8 @@ the area (**Area = Length × Width**), and display the result.
 Write the algorithm and draw the flowchart for a program that takes a
 student's average marks and displays **"Pass"** if average ≥ 50,
 otherwise **"Fail"**.
+
+### ✔ Pseudocode
 
 ---
 
