@@ -96,7 +96,18 @@ START
     INCREAMENT i <- 1 + 1
 END
 ```
-
+```mermaid
+flowchart TD
+    A([Start]) --> B[Input number]
+    B --> C[Input i]
+    C --> D["Enter a number:"; READ NUMBER]
+    D --> E[SET i = 1]
+    E --> F[while i <= 10]
+    G --> H [COMPUTE PRODUCT <- N *1]
+    I --> J [Display "number * 1 = product"]
+    J --> K [INCREAMENT i <- 1 + 1 ]
+    L --> M ([End])
+```
 ---
 
 ## 4. Positive, Negative, or Zero Check
