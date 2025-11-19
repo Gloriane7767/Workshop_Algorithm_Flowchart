@@ -115,7 +115,6 @@ it is positive, negative, or zero.
 ```text
 START
     INPUT number
-
     IF number > 0 THEN
         DISPLAY "Positive"
     ELSE IF number < 0 THEN
@@ -123,9 +122,7 @@ START
     ELSE
         DISPLAY "Number is Zero"
     ENDIF
-
 END
-
 ```
 ---
 
@@ -148,6 +145,22 @@ lowchart TD
 Create an algorithm and flowchart for a program that calculates simple
 interest using the formula:
 
+```text
+START
+    INPUT principle
+    INPUT rate
+    Input time
+
+    IF number > 0 THEN
+        DISPLAY "Positive"
+    ELSE IF number < 0 THEN
+        DISPLAY "Negative"
+    ELSE
+        DISPLAY "Number is Zero"
+    ENDIF
+
+END
+```
 **SI = (P × R × T) / 100**
 
 - **P = Principal** → original amount of money
